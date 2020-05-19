@@ -1,0 +1,1 @@
+{"kind":"Pod","apiVersion":"v1","metadata":{"name":"test-pod","creationTimestamp":null},"spec":{"containers":[{"name":"test-container","image":"nginx","env":[{"name":"ENV","value":"dev"}],"resources":{}}]},"status":{}}
