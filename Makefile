@@ -63,7 +63,7 @@ clean:
 
 build:
 	mkdir -p $(BIN_OUT)
-	declare -A projects=(["trigger"]=trigger/main.go ["generateK8S"]=generateK8S/main.go )\
+	declare -A projects=(["trigger"]=trigger/main.go )\
 	;for i in "$${!projects[@]}"; do \
 		echo $${i}; \
 		if [[ ${UNAME_S} == "Darwin" ]]; then \
