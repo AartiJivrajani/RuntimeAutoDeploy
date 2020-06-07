@@ -3,6 +3,7 @@ curl -O https://dl.google.com/go/go1.14.3.linux-amd64.tar.gz
 tar xvf go1.14.3.linux-amd64.tar.gz
 sudo chown -R root:root ./go
 sudo mv go /usr/local
+mkdir -p $HOME/work
 export GOPATH=$HOME/work
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 mkdir -p $HOME/work/src
